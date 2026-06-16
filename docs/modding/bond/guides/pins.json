@@ -747,7 +747,12 @@
         "hash": "016549185289115F",
         "path": "[modules:/zaicrowddialogueplayer.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBump",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012BF0A3814F816D",
@@ -774,7 +779,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "OnSoundDistractionFinished",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01153146DC589868",
@@ -969,7 +983,16 @@
         "hash": "01BE515552C43D5A",
         "path": "[modules:/zactconditionentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01658AA7CF35A828",
@@ -1073,7 +1096,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DA067CE1E7F61A",
@@ -1084,7 +1112,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014737F8F2846E21",
@@ -1479,7 +1512,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BF233A498F953E",
@@ -1500,7 +1538,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnDamaged",
+                "description": ""
+            },
+            {
+                "pin": "OnDestroyed",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CC4F9F97A37DA3",
@@ -1511,7 +1558,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AC7BDF8384AAAF",
@@ -1549,7 +1601,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F4A25B2F9ED571",
@@ -1779,7 +1836,24 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Duration",
+                "description": ""
+            },
+            {
+                "pin": "MainEventEnded",
+                "description": ""
+            },
+            {
+                "pin": "Marker",
+                "description": ""
+            },
+            {
+                "pin": "StopEventEnded",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01144CBC9CCE041F",
@@ -1814,7 +1888,12 @@
         "hash": "018BDF2D150313BA",
         "path": "[modules:/zaudioislistenerinroom.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Changed",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B0B299790E59DE",
@@ -2148,7 +2227,12 @@
         "hash": "016B8C38A5F11FF0",
         "path": "[modules:/zballandsocketconstraintentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBroken",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0122EAEEC0AD5F1F",
@@ -2543,7 +2627,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBootFlowFinished",
+                "description": ""
+            },
+            {
+                "pin": "OnBootFlowTriggered",
+                "description": ""
+            },
+            {
+                "pin": "WaitForUserInput",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0188A9D7CFFE900C",
@@ -2662,13 +2759,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A1421C7B44AD54",
         "path": "[modules:/zclaianynpcicon.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "IconShown",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013A8CE04676793B",
@@ -2763,7 +2870,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012657B62F564EBA",
@@ -2846,7 +2958,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014C082EA7E031F5",
@@ -2857,7 +2974,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A7209E7B9BA7AA",
@@ -2921,7 +3043,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B82A8DE58BD51E",
@@ -2932,7 +3059,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A10FC7CC79A96E",
@@ -3051,7 +3183,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0121273B7E1EE65F",
@@ -3068,7 +3205,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D91417DD8E1870",
@@ -3079,7 +3221,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DA77D6BCA31259",
@@ -3162,7 +3309,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019C84C7E63A7012",
@@ -3215,7 +3367,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012AE733DBEE2C89",
@@ -3226,7 +3383,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01709B5437B859B5",
@@ -3260,7 +3422,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0163BAF99CAEF68D",
@@ -3283,7 +3450,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B0426FC25EB6AB",
@@ -3305,7 +3477,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DC873723682FE8",
@@ -3322,7 +3499,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016EA3BF8F5C934A",
@@ -3344,7 +3526,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01533BF26B962231",
@@ -3355,7 +3542,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FC7AEA036ABC82",
@@ -3377,7 +3569,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019B9A10B63A423C",
@@ -3388,7 +3585,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011A71BD85F10A80",
@@ -3447,7 +3649,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E6D376511D27FB",
@@ -3458,7 +3665,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0162BCDABAAFDBF7",
@@ -3469,7 +3681,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0107097B8D93A377",
@@ -3491,7 +3708,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0106FB1D72E0F702",
@@ -3514,7 +3736,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01586F21AF505B73",
@@ -3525,7 +3752,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0166BB3D761A0B1C",
@@ -3536,7 +3768,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0171D4D961FD1E54",
@@ -3547,7 +3784,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011F845ECC5CF628",
@@ -3558,7 +3800,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DE3373A4B60159",
@@ -3569,13 +3816,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B4F2D974FB61F9",
         "path": "[modules:/zclarmorimpactlistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnArmorImpact",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A7334D1D67513C",
@@ -3597,7 +3854,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0154D49A9D33ACD7",
@@ -3608,7 +3870,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C05C16A6333D71",
@@ -3619,7 +3886,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019404593641948C",
@@ -3630,7 +3902,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010284F70AABD42B",
@@ -3641,7 +3918,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012BAE75BD5DE9EE",
@@ -3667,7 +3949,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "Value",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EE3A9AE820A47D",
@@ -3832,7 +4123,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019CEC8F66E7505C",
@@ -3843,7 +4139,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E0133D0D66B8C2",
@@ -3854,7 +4155,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BA8AA2F86A579F",
@@ -3865,7 +4171,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010A72AA016A3947",
@@ -3876,7 +4187,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D3AFF497B7A656",
@@ -3897,7 +4213,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D00A1F5987436A",
@@ -3908,7 +4229,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011A338A413789D1",
@@ -3942,7 +4268,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ForEach",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011DBA669932B711",
@@ -3992,7 +4327,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0161D3B7A6DAC1BC",
@@ -4007,7 +4347,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            },
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015CA14714814C11",
@@ -4024,13 +4377,31 @@
         "hash": "01BB84AD92EF4886",
         "path": "[modules:/zclframetickentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0133DD027CCAECD6",
         "path": "[modules:/zclboolchangednotifyentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "False",
+                "description": ""
+            },
+            {
+                "pin": "Tick",
+                "description": ""
+            },
+            {
+                "pin": "True",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DB8EAEAFE79938",
@@ -4041,13 +4412,31 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018D7C3D9D01C124",
         "path": "[modules:/zclboolexpressionchangedexecutionrootentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "False",
+                "description": ""
+            },
+            {
+                "pin": "Tick",
+                "description": ""
+            },
+            {
+                "pin": "True",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018024CD32AEC0A4",
@@ -4058,7 +4447,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "False",
+                "description": ""
+            },
+            {
+                "pin": "True",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C2FE2703624C47",
@@ -4092,7 +4490,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnSignalBoolValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B37F9346DBCD76",
@@ -4370,7 +4773,16 @@
         "hash": "01C06C9C3C869D55",
         "path": "[modules:/zclcomplyingfadehelperentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "StartFadeIn",
+                "description": ""
+            },
+            {
+                "pin": "StartFadeOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E1DD8B792DBD86",
@@ -4381,7 +4793,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTimerCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01643F2D0FD8C8AE",
@@ -4392,13 +4809,27 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014A8CC8C19101F6",
         "path": "[modules:/zclconfrontationlistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnConfrontationEndedWithReason",
+                "description": ""
+            },
+            {
+                "pin": "OnConfrontationStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0148153E6C230C30",
@@ -4451,7 +4882,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E1704B6C0AE92C",
@@ -4500,7 +4936,36 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "AllLoopsDone",
+                "description": ""
+            },
+            {
+                "pin": "LoopDone",
+                "description": ""
+            },
+            {
+                "pin": "Paused",
+                "description": ""
+            },
+            {
+                "pin": "Played",
+                "description": ""
+            },
+            {
+                "pin": "Resumed",
+                "description": ""
+            },
+            {
+                "pin": "Stopped",
+                "description": ""
+            },
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011273B65679BA78",
@@ -4555,7 +5020,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0159B96AF4EF94F6",
@@ -4567,7 +5037,12 @@
         "hash": "0109A9C9ACB0740B",
         "path": "[modules:/zcldeactivatorentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016D3AC96875D23D",
@@ -4705,7 +5180,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015050152CA39369",
@@ -4716,7 +5196,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01876B5BC696D322",
@@ -4727,7 +5212,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D42C218974F742",
@@ -4738,7 +5228,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EF78665F6ED481",
@@ -4749,7 +5244,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01714756E8D2BD47",
@@ -4760,7 +5260,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EE27F328F4FF09",
@@ -4771,7 +5276,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D1E1BE12D1828F",
@@ -4782,19 +5292,34 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013EF3CEB34DA028",
         "path": "[modules:/zcldetectvehicleboatcollisions.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCollision",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B2969FE2D0862F",
         "path": "[modules:/zcldetectvehicleboatwatersubmerged.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnWaterSubmerged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D3638121211211",
@@ -4811,7 +5336,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0107004E9F4C4234",
@@ -4822,7 +5352,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012ABE3A41EBD8B9",
@@ -4844,7 +5379,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019FF01FFB6422A8",
@@ -4879,7 +5419,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010789FF58B55890",
@@ -4890,7 +5435,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01032BC7F655EF11",
@@ -4901,7 +5451,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011FB03E0C350791",
@@ -4952,7 +5507,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Continue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014E2D941635FBCC",
@@ -4994,7 +5554,12 @@
         "hash": "011C2B91CF17CCBC",
         "path": "[modules:/zfirearmimpactlistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFirearmProjectileImpact",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01ADC9D9D1E72FAC",
@@ -5009,7 +5574,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFirearmProjectileImpact",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A18EF109918A42",
@@ -5020,7 +5590,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A3ED50D26F55A2",
@@ -5031,25 +5606,45 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B637820B368F40",
         "path": "[modules:/zclenabledisablenpcabilities.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A61A6060D5AF23",
         "path": "[modules:/zclenabledisableplayergameplaysystem.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0115108CEF1E8DDC",
         "path": "[modules:/zclenabledisableplayergameplaysystems.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0177DD9DC8510C46",
@@ -5060,7 +5655,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012784AFC1D3BA5D",
@@ -5156,7 +5756,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DFB69C520BF43E",
@@ -5171,7 +5776,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0129B547615F9014",
@@ -5194,7 +5804,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ForEach",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013D7802D4554C4B",
@@ -5211,7 +5830,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0109244260BBFF7A",
@@ -5233,7 +5857,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011A0427DA7F764F",
@@ -5244,7 +5873,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B1DD1AF9836D6D",
@@ -5255,7 +5889,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Changed",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0180F5493E707427",
@@ -5437,7 +6076,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Completed",
+                "description": ""
+            },
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D7827C0FDB4111",
@@ -5448,7 +6096,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01371523DF5839C4",
@@ -5459,7 +6112,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B36BF52F3DB6AA",
@@ -5471,13 +6129,23 @@
         "hash": "01A1545F16526851",
         "path": "[modules:/zcleventreceiverboolentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A3426A38DE72A0",
         "path": "[modules:/zcleventreceiverentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0121A6D36695D1D8",
@@ -5489,19 +6157,34 @@
         "hash": "01E7C6C5DD69F0D5",
         "path": "[modules:/zcleventreceiverentityrefentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017DA8CD28853985",
         "path": "[modules:/zcleventreceiverfloatentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01773A03F0D5EF73",
         "path": "[modules:/zcleventreceiverscolorrgbentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0138E62C759F3608",
@@ -5513,31 +6196,56 @@
         "hash": "010717A4F0224C98",
         "path": "[modules:/zcleventreceiversvector2entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C021F66C00D3C5",
         "path": "[modules:/zcleventreceiversvector3entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019855473F728BC7",
         "path": "[modules:/zcleventreceiversvector4entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E1933256DFDAA8",
         "path": "[modules:/zcleventreceiverzstringentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CF419462C9ED1D",
         "path": "[modules:/zcleventtickentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F6BCEF68DAF40C",
@@ -5549,19 +6257,82 @@
         "hash": "010299D77880CED3",
         "path": "[modules:/zitemcharacterentitybase.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnAttached",
+                "description": ""
+            },
+            {
+                "pin": "OnDropped",
+                "description": ""
+            },
+            {
+                "pin": "OnEquipped",
+                "description": ""
+            },
+            {
+                "pin": "OnPickedUp",
+                "description": ""
+            },
+            {
+                "pin": "OnUnequipped",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CEF237CCA24D4D",
         "path": "[modules:/zthrowableitemcharacterentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnThrowableItemImpact",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018BF4B67B28F771",
         "path": "[modules:/zfirearmcharacterentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnAttached",
+                "description": ""
+            },
+            {
+                "pin": "OnDropped",
+                "description": ""
+            },
+            {
+                "pin": "OnEquipped",
+                "description": ""
+            },
+            {
+                "pin": "OnFire",
+                "description": ""
+            },
+            {
+                "pin": "OnPickedUp",
+                "description": ""
+            },
+            {
+                "pin": "OnThrowableItemImpact",
+                "description": ""
+            },
+            {
+                "pin": "OnThrowableItemInterrupted",
+                "description": ""
+            },
+            {
+                "pin": "OnThrowableItemThrown",
+                "description": ""
+            },
+            {
+                "pin": "OnUnequipped",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0184189084C1B507",
@@ -5572,7 +6343,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0110AC60E2F8538B",
@@ -5594,7 +6370,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0193B93002D28FFF",
@@ -5605,7 +6386,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C356B421F6B269",
@@ -5628,7 +6414,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ForEach",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017131C173ACB511",
@@ -5672,7 +6467,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E26EF9FD5BC1FF",
@@ -5689,7 +6489,12 @@
         "hash": "016B5D352740F19A",
         "path": "[modules:/zclfloatexpressionchangedexecutionrootentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0125EAEB1FBA9FF3",
@@ -5728,7 +6533,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnSignalFloatValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016DF678B27853C3",
@@ -5775,7 +6585,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "LoopBody",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FF64AEC0B0CFF6",
@@ -5786,7 +6605,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "LoopBody",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0119D7082E473765",
@@ -5797,7 +6625,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01845CDF3D9BAF5A",
@@ -5820,13 +6653,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019C0F29405525D8",
         "path": "[modules:/zclgadgetactivatedonhumanoid.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTapActivationCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F1DC464B8C8779",
@@ -5855,7 +6698,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C2FE202AA5854D",
@@ -6113,7 +6961,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C779FE96F7BEBB",
@@ -6334,7 +7187,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B12E06D77B038D",
@@ -6490,7 +7348,20 @@
         "hash": "0139BBB1B68C5A6A",
         "path": "[modules:/zclgetlocalplayerinputactionstate.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnActivated",
+                "description": ""
+            },
+            {
+                "pin": "OnDeactivated",
+                "description": ""
+            },
+            {
+                "pin": "WhileActive",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B63B308877C751",
@@ -6543,7 +7414,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C70AA907F5CACD",
@@ -6928,7 +7804,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CCC551F46917A9",
@@ -6939,7 +7820,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0136D212D93ED38C",
@@ -6950,7 +7836,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011F1F74BDE5EFBA",
@@ -6961,7 +7852,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013F72B12AA829D8",
@@ -6972,7 +7868,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "Success",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DB7E4BE9829A6E",
@@ -6983,7 +7888,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A14D0623F3504B",
@@ -7120,7 +8030,12 @@
         "hash": "015FBA6D18B4209C",
         "path": "[modules:/zclhierarchyeventreceiverentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017249FE5A2753EC",
@@ -7154,7 +8069,12 @@
         "hash": "01F8BC1F73A9BBEB",
         "path": "[modules:/zclhumanoidoutfitchangelistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnOutfitChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0130D685042468B4",
@@ -7166,13 +8086,31 @@
         "hash": "01A8281B03225F5F",
         "path": "[modules:/zclhumanoidstateconditionentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D3C92F701189E8",
         "path": "[modules:/zphysicstrigger.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBeginOverlap",
+                "description": ""
+            },
+            {
+                "pin": "OnEndOverlap",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01127BB1BC563D1E",
@@ -7193,7 +8131,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FB7BF2A54A5590",
@@ -7204,7 +8147,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Else",
+                "description": ""
+            },
+            {
+                "pin": "Then",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AAD213F4D96FD9",
@@ -7215,7 +8167,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Then",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F078402CC4E29F",
@@ -7226,7 +8183,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Then",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D4D47DF797D446",
@@ -7266,13 +8228,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014A6066867AB367",
         "path": "[modules:/zclinitializerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DAA8EF5EBDABF4",
@@ -7296,7 +8268,20 @@
         "hash": "01A2C2E508294A9B",
         "path": "[modules:/zclinputkeydigitalentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "JustPressed",
+                "description": ""
+            },
+            {
+                "pin": "JustReleased",
+                "description": ""
+            },
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DC6E6EDB732848",
@@ -7324,7 +8309,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01767706F2A5F70D",
@@ -7335,7 +8325,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0118D7CB3E09A74A",
@@ -7364,7 +8359,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ForEach",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01607065DCFBD2D8",
@@ -7414,7 +8418,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019667A01C547249",
@@ -7442,7 +8451,12 @@
         "hash": "017D727E07551334",
         "path": "[modules:/zclintexpressionchangedexecutionrootentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016FA31E827D1ED3",
@@ -7532,7 +8546,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Intercepted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E32073F33CBDD2",
@@ -7568,7 +8587,12 @@
         "hash": "015E63CFECD7DB4F",
         "path": "[modules:/zclisanynpchumanoidstatelistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0183EADEC0C942F1",
@@ -8179,7 +9203,12 @@
         "hash": "0164A9DAEB3DF321",
         "path": "[modules:/zclissituationcontained.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "SituationContained",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DCDB5FEC66381A",
@@ -8214,7 +9243,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C751BF2CD41B63",
@@ -8255,13 +9289,23 @@
         "hash": "01C476A66E96EB3D",
         "path": "[modules:/zclkeywordlistener_added_entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D3CEA98F5ABB97",
         "path": "[modules:/zclkeywordlistener_removed_entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013E2DAF5FE1B5F0",
@@ -8284,7 +9328,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0110B293B5ED1843",
@@ -8454,7 +9503,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01175F720E8BFABC",
@@ -8471,7 +9525,12 @@
         "hash": "01AEAD66C4064894",
         "path": "[modules:/zclloadingscreengone.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnLoadingScreenGone",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017371CC8BFAA1C4",
@@ -8524,7 +9583,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0135503DA513F159",
@@ -8541,7 +9605,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0165AA8ACABFC3AF",
@@ -8552,7 +9621,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018A88104D17082B",
@@ -8663,7 +9737,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018DBAA6C245E917",
@@ -8674,7 +9753,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CA7F35B4D2F77E",
@@ -8833,19 +9917,42 @@
         "hash": "010C81813DF8B37E",
         "path": "[modules:/zclonanimationgameevententity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFinished",
+                "description": ""
+            },
+            {
+                "pin": "OnOngoing",
+                "description": ""
+            },
+            {
+                "pin": "OnTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0161374E7E151CAD",
         "path": "[modules:/zclonlistenbossreactions.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EA77CBE74BE301",
         "path": "[modules:/zclonnpcdeath.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014DDA8A42846F29",
@@ -8868,7 +9975,24 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Line1",
+                "description": ""
+            },
+            {
+                "pin": "Line2",
+                "description": ""
+            },
+            {
+                "pin": "Line3",
+                "description": ""
+            },
+            {
+                "pin": "Line4",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D32E3967C6C283",
@@ -8931,7 +10055,16 @@
         "hash": "0183F218EF3B3568",
         "path": "[modules:/zclphysicsgameplaystatelistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEnterState",
+                "description": ""
+            },
+            {
+                "pin": "OnLeaveState",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C7A3792C007058",
@@ -8948,7 +10081,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0155DF41E4363D41",
@@ -8959,13 +10097,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0153429C4F83E7DE",
         "path": "[modules:/zclplayeractivatedlureentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019AFFCFEE779E5B",
@@ -8989,7 +10137,12 @@
         "hash": "012533022E7E9F00",
         "path": "[modules:/zclplayeritemeventslistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnPickedUp",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01468E1E4DF74B25",
@@ -9055,7 +10208,12 @@
         "hash": "0185E43F074C0E03",
         "path": "[modules:/zkntspawnpointentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnSpawned",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C8995C40A9F6BE",
@@ -9134,7 +10292,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnGetGroupID",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D2BA5165B8A57C",
@@ -9157,7 +10320,12 @@
         "hash": "0114F78253634BC7",
         "path": "[modules:/zclpropertyeditorvaluechangeentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0168ED22767FFB3F",
@@ -9386,7 +10554,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F04B6FE69CBC37",
@@ -9397,7 +10570,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019E6822EFD99AC2",
@@ -9430,7 +10608,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013342720829DE95",
@@ -9441,7 +10624,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011259A6B9FFA7D1",
@@ -9527,7 +10715,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013B89B760A28AC5",
@@ -9538,7 +10731,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0176A55DD59C6291",
@@ -9549,7 +10747,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DE5362B1537014",
@@ -9582,7 +10785,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01ED180793FC05A8",
@@ -9679,7 +10887,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011EFFCEAC655556",
@@ -9707,13 +10920,23 @@
         "hash": "01AB25132465F8D6",
         "path": "[modules:/zclsendeventlocalboolentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BFDACB18FB90CB",
         "path": "[modules:/zclsendeventlocalentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014DD7F492A381C2",
@@ -9725,19 +10948,34 @@
         "hash": "01AF960E9C03EA02",
         "path": "[modules:/zclsendeventlocalentityrefentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D73663976AD2AF",
         "path": "[modules:/zclsendeventlocalfloatentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E6766E785D206A",
         "path": "[modules:/zclsendeventlocalscolorrgbentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014B1478E4BD3F4E",
@@ -9755,19 +10993,34 @@
         "hash": "01BCA48227B4A795",
         "path": "[modules:/zclsendeventlocalsvector3entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0107F3924AF559EA",
         "path": "[modules:/zclsendeventlocalsvector4entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015858E357CA3F88",
         "path": "[modules:/zclsendeventlocalzstringentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018226608E840652",
@@ -9801,7 +11054,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B530C51578BFE2",
@@ -9812,7 +11070,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01866881C6C699C6",
@@ -9914,7 +11177,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012A28B245C77CD4",
@@ -9925,7 +11193,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018C58879336959C",
@@ -9936,7 +11209,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0105F6D3FD269D93",
@@ -9947,7 +11225,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01089082325394C4",
@@ -9969,7 +11252,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014D5B691F9988ED",
@@ -9980,7 +11268,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011A8FEC812CCD45",
@@ -10008,7 +11301,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B90887BC297F7F",
@@ -10019,7 +11317,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0180D9813F494B35",
@@ -10030,7 +11333,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01039CCF3F801AE9",
@@ -10041,7 +11349,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010609899065D67C",
@@ -10052,7 +11365,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AD58D96EFF5A08",
@@ -10063,7 +11381,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017D372B569BA33C",
@@ -10080,7 +11403,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012CE1C5BE1275E4",
@@ -10135,7 +11463,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CA0052D5DA10CC",
@@ -10157,7 +11490,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0173E71F135C6A0A",
@@ -10168,7 +11506,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BEEE0D2E5B006E",
@@ -10179,7 +11522,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E4055E0E5D8169",
@@ -10190,7 +11538,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AB1C8C3F632C19",
@@ -10201,7 +11554,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016711B22D4ECBEE",
@@ -10223,7 +11581,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01543CD307D26151",
@@ -10234,7 +11597,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0196AB32EC8D9AFA",
@@ -10245,7 +11613,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B3F78824B66A48",
@@ -10256,7 +11629,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016C0E8DA321859E",
@@ -10267,7 +11645,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D17B1ED9A50FD2",
@@ -10278,7 +11661,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0140C5FAA57EF59B",
@@ -10300,7 +11688,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0199ADD2EB7BC75C",
@@ -10311,7 +11704,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01059BE64058B16F",
@@ -10322,7 +11720,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016B46CD0117AAF7",
@@ -10333,7 +11736,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EDF6523BF70723",
@@ -10344,7 +11752,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0133890C8F12BF9C",
@@ -10355,7 +11768,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011512469F80FB35",
@@ -10366,7 +11784,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0190D65EF4168392",
@@ -10377,7 +11800,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013CF310234ED1B4",
@@ -10388,7 +11816,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B1F67153651E73",
@@ -10410,7 +11843,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0193C96CC08676DA",
@@ -10421,7 +11859,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C2AD79CE1163DB",
@@ -10432,7 +11875,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FC2D958890CB97",
@@ -10443,7 +11891,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E1D19A3ABC3A12",
@@ -10454,7 +11907,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015CB8D28AD224D9",
@@ -10465,7 +11923,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018DD3180CA824AB",
@@ -10476,7 +11939,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCurrent",
+                "description": ""
+            },
+            {
+                "pin": "OnNotCurrent",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015B8E2B3AD70EDC",
@@ -10487,7 +11959,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FC1AC37BD760D5",
@@ -10498,7 +11975,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0176957DCF8D92F2",
@@ -10515,7 +11997,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015E20460C29F0AB",
@@ -10549,7 +12036,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FAC1D87F6A302B",
@@ -10566,7 +12058,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01777DFBDA52A2CE",
@@ -10577,7 +12074,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CB304E4BE26DD8",
@@ -10588,7 +12090,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EBC9BA2D13C799",
@@ -10605,7 +12112,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D5CAB7153F31DD",
@@ -10622,7 +12134,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01053679EB084171",
@@ -10639,7 +12156,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0181007AD8EA91BB",
@@ -10656,7 +12178,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F08B4B82100BB2",
@@ -10673,7 +12200,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011EDC1E8F2AEAD9",
@@ -10684,7 +12216,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01912A15A7B3957F",
@@ -10695,7 +12232,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019617CDA25FFBF5",
@@ -10745,7 +12287,40 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnActivable",
+                "description": ""
+            },
+            {
+                "pin": "OnActive",
+                "description": ""
+            },
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            },
+            {
+                "pin": "OnDeactivated",
+                "description": ""
+            },
+            {
+                "pin": "OnFailed",
+                "description": ""
+            },
+            {
+                "pin": "OnInterrputed",
+                "description": ""
+            },
+            {
+                "pin": "OnReset",
+                "description": ""
+            },
+            {
+                "pin": "OnVisible",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016962B371794DE5",
@@ -10768,7 +12343,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01768E23333DD459",
@@ -10838,7 +12418,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011AE72B52D6477F",
@@ -10849,7 +12434,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01259F17073AC93E",
@@ -10860,7 +12450,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DBBEF4B96C25EE",
@@ -10907,7 +12502,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011677029DDE31D9",
@@ -10948,7 +12548,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CBF6AFC512608B",
@@ -10959,7 +12564,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01460D71EEA47135",
@@ -11072,7 +12682,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnSignalStringValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01662AF67091BA8A",
@@ -11095,7 +12710,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0114BD7AC5611909",
@@ -11230,7 +12850,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B54F41EEB881A1",
@@ -11241,7 +12866,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015CDD4A48E648FA",
@@ -11258,7 +12888,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01701D286B56FE4A",
@@ -11280,7 +12915,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016A1502E92E5154",
@@ -11430,7 +13070,12 @@
         "hash": "0128BF4CC2ECB89C",
         "path": "[modules:/zclthrowableitemeventlistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Thrown",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C2AF797B248CBB",
@@ -11449,7 +13094,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011B95BFF5968D30",
@@ -11460,7 +13110,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F42187DC55A3DB",
@@ -11471,7 +13126,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AFA9FA212A95E2",
@@ -11482,7 +13142,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EAFE8F2E7F7ABA",
@@ -11493,7 +13158,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EF1FED703404E1",
@@ -11504,7 +13174,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FD72BD8FEEE016",
@@ -11526,7 +13201,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017C1E934D5329F2",
@@ -11537,7 +13217,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FB49819C3C862B",
@@ -11559,7 +13244,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011B9442349428D0",
@@ -11570,7 +13260,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F9AB14DA1E4737",
@@ -11581,7 +13276,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DC6C2B7B72A963",
@@ -11592,7 +13292,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012613C2C5C310DB",
@@ -11603,7 +13308,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012653E9D21FE907",
@@ -11614,7 +13324,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Completed",
+                "description": ""
+            },
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019DD5D7A3835EF9",
@@ -11625,7 +13344,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013D52E73C5ACE36",
@@ -11636,7 +13360,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016309DF3437D611",
@@ -11647,7 +13376,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01516B966C4D0442",
@@ -11658,7 +13392,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BC9926CDDB239F",
@@ -11704,13 +13443,23 @@
         "hash": "01DBCE259C2CEC51",
         "path": "[modules:/zclvaluechangeexecutionrootentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01458B47D782035D",
         "path": "[modules:/zclvaluechangesingleexecutionrootentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Tick",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E36B5AFD6E1A21",
@@ -11887,7 +13636,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BBB9153900012A",
@@ -11898,7 +13652,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01147A349A24C216",
@@ -11921,7 +13680,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "ForEach",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E2ABD3336C9977",
@@ -11932,7 +13696,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EFB133E6DF206F",
@@ -11954,7 +13723,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014E58FA0CAA850A",
@@ -12023,7 +13797,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A9D10A8C071F2D",
@@ -12034,7 +13813,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0119B3EAF78E48E9",
@@ -12136,7 +13920,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01417DD475C6802A",
@@ -12147,7 +13936,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01292AC66EDDFBFF",
@@ -12158,7 +13952,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0135420C55A87902",
@@ -12193,7 +13992,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C3D1075C586F52",
@@ -12210,7 +14014,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0127569AC057EA10",
@@ -12291,7 +14100,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01909D68286F3853",
@@ -12302,7 +14116,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017770460A3E73ED",
@@ -12313,7 +14132,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015A6D28D2F6E5D0",
@@ -12324,7 +14148,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0143046B4363A470",
@@ -12335,7 +14164,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EE86C843811A83",
@@ -12346,7 +14180,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010C8C0295073B83",
@@ -12357,7 +14196,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F081D57F2A8CFD",
@@ -12374,7 +14218,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016CD426DC64421D",
@@ -12385,7 +14234,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FA05A62391DBDB",
@@ -12431,7 +14285,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015117CC7E90837F",
@@ -12459,7 +14318,12 @@
         "hash": "0120C55BFB08EF1C",
         "path": "[modules:/zclwatereventlistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEnteredWater",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AB8CA69B1F305F",
@@ -12492,7 +14356,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BB0205AA4D1400",
@@ -12877,7 +14746,20 @@
         "hash": "01CD62CDE78A8C39",
         "path": "[modules:/zcinematictransitionentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTransitionApproachStarts",
+                "description": ""
+            },
+            {
+                "pin": "OnTransitionCompleted",
+                "description": ""
+            },
+            {
+                "pin": "OnTransitionFunnelingStarts",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014547CCCE6F66B3",
@@ -12898,7 +14780,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "SkipCinematicInputActivated",
+                "description": ""
+            },
+            {
+                "pin": "SkipCinematicInputDeactivated",
+                "description": ""
+            },
+            {
+                "pin": "SkipRequested",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01789049A88F22C1",
@@ -13106,7 +15001,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016FE3F68387CF27",
@@ -13226,7 +15126,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "TimeOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014A449AD5F58991",
@@ -13271,7 +15176,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Data",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019E9273524377B1",
@@ -13294,7 +15204,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "ContractId",
+                "description": ""
+            },
+            {
+                "pin": "ContractLoadFailed",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D442663BB693BB",
@@ -13372,7 +15291,12 @@
         "hash": "01D138041464D544",
         "path": "[modules:/zconversationchoiceentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Selected",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D282C24D7CC8D8",
@@ -13387,7 +15311,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnChoiceSelected",
+                "description": ""
+            },
+            {
+                "pin": "TimedOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D75445651A8A78",
@@ -13398,7 +15331,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out3",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A9236607730838",
@@ -13464,7 +15402,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013EFDB9F9D61E63",
@@ -13490,7 +15433,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "ReachedZero",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01086FCF192400DC",
@@ -13509,7 +15457,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFinished",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C821F52156AFF2",
@@ -13679,7 +15632,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "NumOccupiedSpots",
+                "description": ""
+            },
+            {
+                "pin": "OnHide",
+                "description": ""
+            },
+            {
+                "pin": "OnReveal",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014B724C8B3264F2",
@@ -13697,7 +15663,12 @@
         "hash": "01FAFB4B22C25301",
         "path": "[modules:/zcrowddensityanglefilterentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017BACFB712D788F",
@@ -13715,7 +15686,12 @@
         "hash": "01CE22F11BE01DDA",
         "path": "[modules:/zcrowddensitysamplerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E28E5DBDC3D082",
@@ -13726,7 +15702,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "GetValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AA150041824FF9",
@@ -13774,7 +15755,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "CurrentTextLocale",
+                "description": ""
+            },
+            {
+                "pin": "TextLocaleChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0178A24EF0E9EB61",
@@ -13791,7 +15781,24 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "PS5",
+                "description": ""
+            },
+            {
+                "pin": "Pc",
+                "description": ""
+            },
+            {
+                "pin": "Scarlett",
+                "description": ""
+            },
+            {
+                "pin": "Unknown",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0129E15E1AAFD7A7",
@@ -13802,7 +15809,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Output",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FA9BD64188152F",
@@ -13819,7 +15831,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0111365DF3F98B12",
@@ -13860,7 +15877,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBroken",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01444CE07C3559E5",
@@ -14149,7 +16171,12 @@
         "hash": "01EAE67256C70CE7",
         "path": "[modules:/zdebugmenuitemtrigger.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Triggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CF912B97067C83",
@@ -14240,7 +16267,28 @@
         "hash": "0143CBE48A53AD08",
         "path": "[modules:/zdecisionpromptentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Option1",
+                "description": ""
+            },
+            {
+                "pin": "Option2",
+                "description": ""
+            },
+            {
+                "pin": "Option3",
+                "description": ""
+            },
+            {
+                "pin": "Option4",
+                "description": ""
+            },
+            {
+                "pin": "TimedOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017B3019621DEC19",
@@ -14302,7 +16350,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018824079DEBFC1A",
@@ -14348,13 +16401,27 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEffectActivated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016F6DC61951E021",
         "path": "[modules:/zdestructioneffectsourcesprovider.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEffectActivated",
+                "description": ""
+            },
+            {
+                "pin": "OnEffectDeactivated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01782C21477DEB47",
@@ -14385,7 +16452,12 @@
         "hash": "011F3D3D57AF2154",
         "path": "[modules:/zdialogevententity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "MainEventEnded",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0126F5C1094B3FA9",
@@ -14409,13 +16481,27 @@
         "hash": "0180DFD63BF6A7B2",
         "path": "[modules:/zstorylineroutine_dialogueentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A6C4598FEBB114",
         "path": "[modules:/zdialogueconditionentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E7FE0A0EDDCE39",
@@ -14455,7 +16541,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018A1ECD8A239287",
@@ -14603,7 +16694,96 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBullrushUnlocked",
+                "description": ""
+            },
+            {
+                "pin": "OnBullrushedOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnBullrushingOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnBullrushingOpenBack",
+                "description": ""
+            },
+            {
+                "pin": "OnBullrushingOpenForward",
+                "description": ""
+            },
+            {
+                "pin": "OnClosed",
+                "description": ""
+            },
+            {
+                "pin": "OnClosing",
+                "description": ""
+            },
+            {
+                "pin": "OnDisabled",
+                "description": ""
+            },
+            {
+                "pin": "OnFailedToBullrushOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnFailedToBullrushUnlock",
+                "description": ""
+            },
+            {
+                "pin": "OnFailedToKickOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnFailedToKickUnlock",
+                "description": ""
+            },
+            {
+                "pin": "OnFailedToOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnKickedOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnKickedUnlocked",
+                "description": ""
+            },
+            {
+                "pin": "OnKickingOpen",
+                "description": ""
+            },
+            {
+                "pin": "OnKickingOpenBack",
+                "description": ""
+            },
+            {
+                "pin": "OnKickingOpenForward",
+                "description": ""
+            },
+            {
+                "pin": "OnOpened",
+                "description": ""
+            },
+            {
+                "pin": "OnOpening",
+                "description": ""
+            },
+            {
+                "pin": "OnSabotaged",
+                "description": ""
+            },
+            {
+                "pin": "OnUnlocked",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015E75298111065A",
@@ -14688,7 +16868,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEnqueuedSpawnStart",
+                "description": ""
+            },
+            {
+                "pin": "OnSucceeded",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B8DDE2DCDB9D48",
@@ -14715,7 +16904,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Value",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BCDE85449A55E1",
@@ -14901,7 +17095,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "HazardBegan",
+                "description": ""
+            },
+            {
+                "pin": "HazardEnded",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B9A5414028BBE7",
@@ -15049,7 +17252,16 @@
         "hash": "015785E584B712FD",
         "path": "[modules:/zeventreceiverentity_bool.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013217B95CA94904",
@@ -15061,7 +17273,12 @@
         "hash": "015F58DE8870159C",
         "path": "[modules:/zeventreceiverentity_float32.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "EventReceived",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01806AE12D864A26",
@@ -15085,7 +17302,12 @@
         "hash": "01594911BCAC58B2",
         "path": "[modules:/zeventreceiverentity_void.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "EventReceived",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0146CA83F516CA49",
@@ -15103,7 +17325,12 @@
         "hash": "01849D2FB7CDC623",
         "path": "[modules:/zeventtrackitem.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Fired",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01022F1565FAACC1",
@@ -15188,7 +17415,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEvent",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0153FD0D6E1EE8F9",
@@ -15331,7 +17563,12 @@
         "hash": "0147ECED482B6336",
         "path": "[modules:/zfirearmtraileffect.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Activate",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01FFC4547CA0B43E",
@@ -15422,7 +17659,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "WentBelowMin",
+                "description": ""
+            },
+            {
+                "pin": "WentIntoRange",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0157BD1B74C70B8A",
@@ -15623,7 +17869,28 @@
         "hash": "0100B80CC38705DD",
         "path": "[modules:/zgadgetitementity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnActivationStarted",
+                "description": ""
+            },
+            {
+                "pin": "OnAttached",
+                "description": ""
+            },
+            {
+                "pin": "OnDropped",
+                "description": ""
+            },
+            {
+                "pin": "OnHoldActivated",
+                "description": ""
+            },
+            {
+                "pin": "OnTapActivated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01411B24B0619141",
@@ -15864,7 +18131,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTransitionCompleted",
+                "description": ""
+            },
+            {
+                "pin": "OnTransitionStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E82E313205F029",
@@ -15930,7 +18206,12 @@
         "hash": "01D58EA8CDF7B78A",
         "path": "[modules:/zgameeventlistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "EventOccurred",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0109FD91A7BF860A",
@@ -15951,7 +18232,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnPaused",
+                "description": ""
+            },
+            {
+                "pin": "OnResumed",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A247165E1EFA9C",
@@ -15986,7 +18276,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014F7AA63719E068",
@@ -16022,7 +18317,16 @@
         "hash": "01DF570112721550",
         "path": "[modules:/zmenupageentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "PageClosed",
+                "description": ""
+            },
+            {
+                "pin": "PageOpened",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F9EED59D7FCF3E",
@@ -16055,13 +18359,39 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Closed",
+                "description": ""
+            },
+            {
+                "pin": "Opened",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F81E15BBDEA5F4",
         "path": "[modules:/zuinotificationtypelistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Activated",
+                "description": ""
+            },
+            {
+                "pin": "Deactivated",
+                "description": ""
+            },
+            {
+                "pin": "Dismissed",
+                "description": ""
+            },
+            {
+                "pin": "Finished",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0182E7444C0B40A2",
@@ -16311,7 +18641,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "PositionOutput",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0120521B5290C436",
@@ -16341,13 +18676,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "RotationOutput",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0177941D62A14040",
         "path": "[modules:/zgetselectedtargetsfromcontextentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTargetsChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011F73C4E27B34CA",
@@ -16496,7 +18841,16 @@
         "hash": "016B3B732F19C8AE",
         "path": "[modules:/zguideledge.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Disabled",
+                "description": ""
+            },
+            {
+                "pin": "Enabled",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EAE4749EBB43C2",
@@ -16573,7 +18927,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Value",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01758B5A28312BF0",
@@ -16595,7 +18954,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Value",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010F618685C508FA",
@@ -16606,7 +18970,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "DistanceChanged",
+                "description": ""
+            },
+            {
+                "pin": "WithinProximityChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DEEC91597C9DEC",
@@ -16806,7 +19179,12 @@
         "hash": "010129AC5E5965E5",
         "path": "[modules:/zhuddataprovideractionpromptwidget.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C5F8AA8E51395F",
@@ -16919,7 +19297,12 @@
         "hash": "01AD37B6807AF152",
         "path": "[modules:/zhuddataproviderimageresourceadapter.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0129961E950D43EE",
@@ -17031,7 +19414,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012A39A76C727BAC",
@@ -17099,7 +19487,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AD43BDA55F12AC",
@@ -17387,7 +19780,12 @@
         "hash": "0161AD86CDF8B179",
         "path": "[modules:/zhastagsentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0199DB785694ECC8",
@@ -17499,7 +19897,12 @@
         "hash": "019CC89B1CBEBCCE",
         "path": "[modules:/zhingeconstraintentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBroken",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019390A58A42A582",
@@ -17547,7 +19950,12 @@
         "hash": "01B57F7174DFFAB5",
         "path": "[modules:/zhumanoidclosecombatevententity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Trigger",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012CB602D96E4ABE",
@@ -17570,13 +19978,23 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnAnimationCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B00600DCDEDCAA",
         "path": "[modules:/zhumanoidimpactonplayerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Trigger",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C24AAD724352D1",
@@ -17678,7 +20096,12 @@
         "hash": "0193A297F32CE00E",
         "path": "[modules:/zhumanoidrangedcombatevententity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Trigger",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0184A62AA878A35D",
@@ -17690,7 +20113,16 @@
         "hash": "01D6C4B256B7D779",
         "path": "[modules:/zhumanoidsequencecontrollerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "ControllerActivated",
+                "description": ""
+            },
+            {
+                "pin": "ControllerDeactivated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01E9FD429A6A2116",
@@ -17711,7 +20143,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnAnimationCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01372591E970AF09",
@@ -17997,7 +20434,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "ExecuteExit",
+                "description": ""
+            },
+            {
+                "pin": "ExecuteFlip",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011128DF35E45205",
@@ -18185,7 +20631,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0132B32724F9BA49",
@@ -18436,7 +20891,16 @@
         "hash": "01C4F8E8C40D8BCF",
         "path": "[modules:/zkntcheckpointconditionentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CF3C9576633730",
@@ -18454,7 +20918,20 @@
         "hash": "010871A6A16B450D",
         "path": "[modules:/zkntcheckpointlistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Active",
+                "description": ""
+            },
+            {
+                "pin": "Ready",
+                "description": ""
+            },
+            {
+                "pin": "Spawned",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013DDB1ED60DF0D6",
@@ -18501,7 +20978,12 @@
         "hash": "01BA6FA2A95256AE",
         "path": "[modules:/zkntdebugentitycustomaction.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Trigger",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B3D15CBA717D03",
@@ -18792,13 +21274,27 @@
         "hash": "01887A99D5353107",
         "path": "[modules:/zkntobjectivecompletionlistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Individual",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0155EF44A9891591",
         "path": "[modules:/zkntobjectivedynamicdatalistenerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "CountCompleted",
+                "description": ""
+            },
+            {
+                "pin": "CountUpdated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015CEA40040E3A92",
@@ -18810,7 +21306,12 @@
         "hash": "01B74A9F513E37FC",
         "path": "[modules:/zkntonlinemissioncompletedentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01826E53AD5FE008",
@@ -18844,7 +21345,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015FA5DC56761789",
@@ -18867,7 +21373,12 @@
         "hash": "01045345EE1890EF",
         "path": "[modules:/zkntsavegameentitylistener.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnSaveDataLoaded",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F343E4A502F24C",
@@ -18884,7 +21395,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012B5DC0B111D439",
@@ -18907,7 +21423,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012A44ED5AE03E0C",
@@ -18918,7 +21439,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A0FB59FDA8155B",
@@ -18930,7 +21456,12 @@
         "hash": "016172CD9F11884E",
         "path": "[modules:/zkntwalletintelentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0170A85EBDD54F49",
@@ -18951,7 +21482,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Finished",
+                "description": ""
+            },
+            {
+                "pin": "Playing",
+                "description": ""
+            },
+            {
+                "pin": "Stopped",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019739B6441D62A3",
@@ -19141,7 +21685,12 @@
         "hash": "01E624F2707AD8E2",
         "path": "[modules:/zlocalplayerspawnedentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01335BE4D5B05F98",
@@ -19152,7 +21701,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Equal",
+                "description": ""
+            },
+            {
+                "pin": "NotEqual",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0189B5159346C3A9",
@@ -19178,7 +21736,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Else",
+                "description": ""
+            },
+            {
+                "pin": "Then",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B4FFBA595D7E6A",
@@ -19334,7 +21901,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012F177C21C50E17",
@@ -19369,7 +21945,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "StartPrologue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019D75C8A65A6F8B",
@@ -19408,13 +21989,431 @@
         "hash": "014414950B9B5E87",
         "path": "[modules:/zmenusoundcontrollerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "ButtonPressed",
+                "description": ""
+            },
+            {
+                "pin": "ButtonPressedDisabled",
+                "description": ""
+            },
+            {
+                "pin": "ElementHovered",
+                "description": ""
+            },
+            {
+                "pin": "LoadingTransitionDelayStarted",
+                "description": ""
+            },
+            {
+                "pin": "NextPageTabSelected",
+                "description": ""
+            },
+            {
+                "pin": "PageBack",
+                "description": ""
+            },
+            {
+                "pin": "PreviousPageTabSelected",
+                "description": ""
+            },
+            {
+                "pin": "SelectionChanged",
+                "description": ""
+            },
+            {
+                "pin": "SliderChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017C31950845F6E7",
         "path": "[modules:/zmenusoundeventtopincontrollerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "JournalSlotEmpty",
+                "description": ""
+            },
+            {
+                "pin": "MainMenu_Costumize",
+                "description": ""
+            },
+            {
+                "pin": "MainMenu_Equip",
+                "description": ""
+            },
+            {
+                "pin": "SFX_GDT_Disabled",
+                "description": ""
+            },
+            {
+                "pin": "SFX_GDT_GadgetReady",
+                "description": ""
+            },
+            {
+                "pin": "SFX_GDT_No_Resources",
+                "description": ""
+            },
+            {
+                "pin": "UI_ChallengeMosaic_Completed",
+                "description": ""
+            },
+            {
+                "pin": "UI_ChallengeMosaic_Ended",
+                "description": ""
+            },
+            {
+                "pin": "UI_ChallengeMosaic_NoUpdate",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_ApplyStyle",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_Back",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_Customize",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_Details",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_Equip",
+                "description": ""
+            },
+            {
+                "pin": "UI_CustomisationWeapons_Unequip",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndCredits_FadeOutStarted",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_ElementFirst",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_ElementShow",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_ElementTotal",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_LevelbarMove",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_LevelbarMove2",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_LevelbarShow",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_ShowLeaderboard",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_ShowNumber",
+                "description": ""
+            },
+            {
+                "pin": "UI_EndGameScore_UpdateNumber",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_Back",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_GadgetSelect",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_MappingSelect",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_ModalNeedRequired",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_ModalNotEnough",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_OpenCustomizePage",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_OpenMappingPage",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_OpenUpgradePage",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_SlotMap",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_SlotSelect",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_SlotUnequip",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_StickCentered",
+                "description": ""
+            },
+            {
+                "pin": "UI_GadgetCart_ToggleDetails",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_CenterMessage_Number",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_CenterMessage_Text",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Collectable_PickedUp_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Confrontation_ShowPrompt",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_DriveAssistAlert_Center",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_DriveAssistAlert_Left",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_DriveAssistAlert_Right",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_IntelItem_Challenge_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_IntelItem_Hint_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_IntelItem_PickedUp_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_LTK_Minimized",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_LTK_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Completed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Failed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Main_Complete",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Main_Reveal",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Revealed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Sub_Complete",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Sub_Reveal",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Obj_Updated",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Op_Completed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Op_Failed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Op_Revealed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Op_Updated",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_DartGun_Active",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_DartGun_LockOn",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_SwapToDartPhoneOutsideQLens",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_SwapToWatchOutsideQLens",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_Watch_Active",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_QLens_Watch_LockOn",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_ReinforcementsIncoming_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Resources_InstinctGain",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_SituationContained_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_SubObj_Completed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_SubObj_Failed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_SubObj_Revealed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_SubObj_Updated",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_TimerFinishedFail",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_TimerFinishedSuccess",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_TimerLowTime",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_TimerStart",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_TimerTick",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Trespassing_Minimized",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Trespassing_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Tutorial_Hint_Additional_Info",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Tutorial_Tip_Shown",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Tutorials_Modal_ButtonPressed",
+                "description": ""
+            },
+            {
+                "pin": "UI_HUD_Tutorials_Modal_Open",
+                "description": ""
+            },
+            {
+                "pin": "UI_Options_ToggleOnOff",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSimHUD_LevelUp",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSimHUD_UpdateIntel",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSim_IntelShop_ItemSelect",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSim_IntelShop_ToggleOwned",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSim_ShowingAcquiredUnlockable",
+                "description": ""
+            },
+            {
+                "pin": "UI_TacSim_ShowingConfirmAcquireUnlockable",
+                "description": ""
+            },
+            {
+                "pin": "UI_Tacsim_MenuQuickPlay",
+                "description": ""
+            },
+            {
+                "pin": "UI_Tacsim_OutfitEquip",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01F802B46AFB1D4E",
@@ -19687,7 +22686,44 @@
         "hash": "018EE9F03BAE319F",
         "path": "[modules:/zmusicevententity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Duration",
+                "description": ""
+            },
+            {
+                "pin": "MainEventEnded",
+                "description": ""
+            },
+            {
+                "pin": "MusicStarted",
+                "description": ""
+            },
+            {
+                "pin": "SyncBar",
+                "description": ""
+            },
+            {
+                "pin": "SyncBeat",
+                "description": ""
+            },
+            {
+                "pin": "SyncEntry",
+                "description": ""
+            },
+            {
+                "pin": "SyncExit",
+                "description": ""
+            },
+            {
+                "pin": "SyncGrid",
+                "description": ""
+            },
+            {
+                "pin": "SyncUserCue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018475281597344C",
@@ -19806,7 +22842,20 @@
         "hash": "0118B25BC276AE2E",
         "path": "[modules:/zonlineconnectionstatusentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Connected",
+                "description": ""
+            },
+            {
+                "pin": "Connecting",
+                "description": ""
+            },
+            {
+                "pin": "Offline",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01934EEDC75FA788",
@@ -19835,7 +22884,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Started",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01900560883F94C1",
@@ -19904,7 +22958,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OutSignal",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011D32F21B80D824",
@@ -20595,7 +23654,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEnd",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0198A2622878C27C",
@@ -20703,7 +23767,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnImpact",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EA49E59D4E61EB",
@@ -20829,7 +23898,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnHintBehaviorFinished",
+                "description": ""
+            },
+            {
+                "pin": "OnHintBehaviorStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01750D5F8D7CD30B",
@@ -20848,7 +23926,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnIsEnabled",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01483D0125A0B2FA",
@@ -20956,19 +24039,34 @@
         "hash": "012D9B9803236537",
         "path": "[modules:/zplayergameplayeventtriggeragilityaction.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEventTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C1EC870CD33BDC",
         "path": "[modules:/zplayergameplayeventtriggercontextswitch.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEventTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DE27C75E899B51",
         "path": "[modules:/zplayergameplayeventtriggerlocomotiontracking.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEventTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013D1468F0917151",
@@ -21019,7 +24117,24 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Completed",
+                "description": ""
+            },
+            {
+                "pin": "Interrupted",
+                "description": ""
+            },
+            {
+                "pin": "Rejected",
+                "description": ""
+            },
+            {
+                "pin": "Started",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01876EEB8BEB21BA",
@@ -21046,7 +24161,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnApproachCompleted",
+                "description": ""
+            },
+            {
+                "pin": "OnApproachProximity",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D407E0E5EF9BFF",
@@ -21109,7 +24233,12 @@
         "hash": "01B480DB1D30B193",
         "path": "[modules:/zplayerspawnerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "PlayerSpawnComplete",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0169539F2429D894",
@@ -21175,7 +24304,12 @@
         "hash": "01388CD003E029DB",
         "path": "[modules:/zstorylineroutine_performanimationactentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EDB0CC5A5F6C64",
@@ -21295,7 +24429,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Output",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011AC11E314CC99E",
@@ -21306,7 +24445,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Output1",
+                "description": ""
+            },
+            {
+                "pin": "Output2",
+                "description": ""
+            },
+            {
+                "pin": "Output3",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0182E87BC30D692F",
@@ -21559,7 +24711,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "TimeOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0134398B7E00CEA4",
@@ -21587,7 +24744,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0153B820C517CC18",
@@ -21621,7 +24783,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ProcessEntity",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010E22096ECE4200",
@@ -21632,7 +24803,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ProcessEntity",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01AB6EB48254515F",
@@ -21672,7 +24852,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnReinforcementsDespawned",
+                "description": ""
+            },
+            {
+                "pin": "OnReinforcementsSpawned",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C9CAC5117B8375",
@@ -21683,7 +24872,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "018D56EE9B88FD38",
@@ -21839,7 +25033,16 @@
         "hash": "017400A9A6B19E01",
         "path": "[modules:/zrendervideoplayerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Started",
+                "description": ""
+            },
+            {
+                "pin": "Stopped",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0147D47DB992A4F1",
@@ -22265,7 +25468,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            },
+            {
+                "pin": "ProcessEntity",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014E99BF753D6F18",
@@ -22306,7 +25518,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0142D119E818BA17",
@@ -22371,7 +25588,32 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out01",
+                "description": ""
+            },
+            {
+                "pin": "Out02",
+                "description": ""
+            },
+            {
+                "pin": "Out03",
+                "description": ""
+            },
+            {
+                "pin": "Out04",
+                "description": ""
+            },
+            {
+                "pin": "Out05",
+                "description": ""
+            },
+            {
+                "pin": "Out06",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0161161EC56FAA8C",
@@ -22390,7 +25632,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01959BBE434D9603",
@@ -22401,7 +25648,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016D1431495B8167",
@@ -22412,7 +25664,40 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out1",
+                "description": ""
+            },
+            {
+                "pin": "Out2",
+                "description": ""
+            },
+            {
+                "pin": "Out3",
+                "description": ""
+            },
+            {
+                "pin": "Out4",
+                "description": ""
+            },
+            {
+                "pin": "Out5",
+                "description": ""
+            },
+            {
+                "pin": "Out6",
+                "description": ""
+            },
+            {
+                "pin": "Out7",
+                "description": ""
+            },
+            {
+                "pin": "Out8",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C685B1EECF06E9",
@@ -22484,7 +25769,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "TextUpdated",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011D8050C0672511",
@@ -22648,7 +25938,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCurrent",
+                "description": ""
+            },
+            {
+                "pin": "OnNotCurrent",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0194BDB475232BC6",
@@ -23052,7 +26351,24 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFirst",
+                "description": ""
+            },
+            {
+                "pin": "OnLast",
+                "description": ""
+            },
+            {
+                "pin": "OnStep",
+                "description": ""
+            },
+            {
+                "pin": "StepCounter",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01539BF9C08C5CAB",
@@ -23089,7 +26405,12 @@
         "hash": "017AA0BB8154E1AA",
         "path": "[modules:/zstorylineanimationactroutine_setcontrolparameterboolentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01DDD45BAF25F3F2",
@@ -23101,7 +26422,12 @@
         "hash": "016E1C5FA536BD4E",
         "path": "[modules:/zstorylineanimationactroutine_setcontrolparameterintentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014476F91B066CE4",
@@ -23113,7 +26439,12 @@
         "hash": "019E22A426F92186",
         "path": "[modules:/zstorylineanimationactroutine_setcontrolparametervector3entity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015FCAB64A4383E2",
@@ -23130,7 +26461,16 @@
         "hash": "01C07BEFD50F6FB0",
         "path": "[modules:/zstorylineconditionbaseentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01BC711CF852808A",
@@ -23141,7 +26481,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Completed",
+                "description": ""
+            },
+            {
+                "pin": "Started",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011FA2E439BA9BF8",
@@ -23153,7 +26502,12 @@
         "hash": "01A38E4D112770EE",
         "path": "[modules:/zstorylineroutine_dialoguecontainerentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0111AA5D1473A9FE",
@@ -23171,7 +26525,20 @@
         "hash": "01716EEC5E78B281",
         "path": "[modules:/zstorylineentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Completed",
+                "description": ""
+            },
+            {
+                "pin": "MercsShouted",
+                "description": ""
+            },
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014E03E8BCD9F4BE",
@@ -23195,7 +26562,12 @@
         "hash": "01669A364AAB192F",
         "path": "[modules:/zstorylineparticipant_fromroutine.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnParticipantStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0150C4FA0EA5057D",
@@ -23213,19 +26585,34 @@
         "hash": "018CF7C55DBFF49A",
         "path": "[modules:/zstorylineparticipant_player.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnParticipantStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B6D78D92496F30",
         "path": "[modules:/zstorylineparticipant_remotenpc.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnParticipantStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01694E9B048E445B",
         "path": "[modules:/zstorylineparticipant_specificnpc.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnParticipantStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B64C4B9CB935AD",
@@ -23237,7 +26624,12 @@
         "hash": "01A7E83AFC6A0011",
         "path": "[modules:/zstorylineroleentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnParticipantStarted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01CA981D30C48CF6",
@@ -23249,13 +26641,23 @@
         "hash": "01E68CC73D14C9EC",
         "path": "[modules:/zstorylineroutineconditionentity_contextpositiontoperformroutinefrom.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0161ACA2205D272D",
         "path": "[modules:/zstorylineroutineconditionentity_dialoguetimebeforeend.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019BAE793634B2C2",
@@ -23297,13 +26699,23 @@
         "hash": "01D842D5FB7AB791",
         "path": "[modules:/zstorylineroutinecontextentity_onanimationeventtriggered.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEventTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015469AD1C35DFA1",
         "path": "[modules:/zstorylineroutinecontextentity_onanimationgameeventtriggered.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEventTriggered",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A4EE70E64AA859",
@@ -23320,19 +26732,34 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015DE0F3BB408A95",
         "path": "[modules:/zstorylineroutine_followpath.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B373C77218E1DB",
         "path": "[modules:/zstorylineroutine_movetoentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0136D6565A73A6AB",
@@ -23350,13 +26777,23 @@
         "hash": "0176E8EF4BF9CF2F",
         "path": "[modules:/zstorylineroutine_shootfirearmentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "013529D26981C906",
         "path": "[modules:/zstorylineroutine_waitentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnCompleted",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D5279335B1683A",
@@ -23445,7 +26882,28 @@
         "hash": "01720E822254BF4C",
         "path": "[modules:/zstumbleimpactlisteneraspect.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "ContextualStrike",
+                "description": ""
+            },
+            {
+                "pin": "HeavyStumble",
+                "description": ""
+            },
+            {
+                "pin": "LightStumble",
+                "description": ""
+            },
+            {
+                "pin": "OnStumbleImpact",
+                "description": ""
+            },
+            {
+                "pin": "RollOver",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01A9A921B2D54B10",
@@ -23689,7 +27147,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Vector3",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01567EEC19BB1764",
@@ -23732,7 +27195,16 @@
         "hash": "0172B1204679FA2C",
         "path": "[modules:/zsystemremindertipitementity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnClosed",
+                "description": ""
+            },
+            {
+                "pin": "OnOpened",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0161FABFEADF2820",
@@ -23977,7 +27449,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "TimeOut",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017129AB6F63351E",
@@ -24223,7 +27700,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "RID",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C6E2E13E5996AC",
@@ -24540,7 +28022,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "011175C67B2AA898",
@@ -24657,7 +28144,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Cancel",
+                "description": ""
+            },
+            {
+                "pin": "Start",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017765C4B8FFD70C",
@@ -24937,7 +28433,16 @@
         "hash": "01C61B79E088DA09",
         "path": "[modules:/zuioptionvalueboolcompare.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnEqual",
+                "description": ""
+            },
+            {
+                "pin": "OnNotEqual",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0152CBA3C5035CAF",
@@ -24965,7 +28470,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnValueChanged",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "015A21D6F8252D2C",
@@ -25075,7 +28585,12 @@
         "hash": "0170D5C04FAB6329",
         "path": "[modules:/zuisetanchor.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0101CC5AC96A83B5",
@@ -25104,7 +28619,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "019047F5B45D75AC",
@@ -25152,7 +28672,16 @@
         "hash": "0192F21A6F06112C",
         "path": "[modules:/zuispatialpooltemplateitemcallbackentity.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnPoolItemControlled",
+                "description": ""
+            },
+            {
+                "pin": "OnPoolItemReleased",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0111CA16E613E6A4",
@@ -25268,7 +28797,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "RID",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016E935548CD9326",
@@ -25285,7 +28819,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "016365D6B7502577",
@@ -25296,7 +28835,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01863B96F3F2A91A",
@@ -25319,7 +28863,16 @@
         "hash": "0135AAD591BE5F65",
         "path": "[modules:/zupdatecrowdhumanoid.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "InsideCrowd",
+                "description": ""
+            },
+            {
+                "pin": "LeftCrowd",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "012FFC1ACEFEC439",
@@ -25345,7 +28898,16 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Available",
+                "description": ""
+            },
+            {
+                "pin": "Unavailable",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "017F1F8A9B44A866",
@@ -25445,7 +29007,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            },
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0185CDA3050262D4",
@@ -25480,7 +29055,16 @@
         "hash": "01C049113134D99F",
         "path": "[modules:/zvaluebool_get.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010B55E8BBCF65E9",
@@ -25508,7 +29092,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "GetFalse",
+                "description": ""
+            },
+            {
+                "pin": "GetTrue",
+                "description": ""
+            },
+            {
+                "pin": "GetValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0118D9D3F9849D2D",
@@ -25574,7 +29171,12 @@
         "hash": "0118B785ACA94293",
         "path": "[modules:/zvaluecolorrgb_changed.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01EF6B93A888FB77",
@@ -25625,7 +29227,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "010331FDE0D3F7C3",
@@ -25648,7 +29255,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "PollValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01B4A9F1FFD8A42A",
@@ -25682,7 +29294,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "014C955D2422B8CB",
@@ -25831,7 +29448,12 @@
         "hash": "010918BCDC191F89",
         "path": "[modules:/zvaluevector3_changed.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01142C6ADDA5AC11",
@@ -25842,7 +29464,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "GetValue",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01C64A418FD1A54A",
@@ -25879,7 +29506,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01370C81DB878926",
@@ -26260,7 +29892,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Out",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "0118F41476B2D982",
@@ -26294,7 +29931,12 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "Done",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01D58C62D1BAAD1D",
@@ -26306,7 +29948,12 @@
         "hash": "01D26BE8915CAE59",
         "path": "[modules:/zwatertrigger.class].entitytype",
         "in": [],
-        "out": []
+        "out": [
+            {
+                "pin": "OnBeginOverlap",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01ADACE7FE58098B",
@@ -26347,7 +29994,20 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnStarted",
+                "description": ""
+            },
+            {
+                "pin": "OnStopped",
+                "description": ""
+            },
+            {
+                "pin": "Value",
+                "description": ""
+            }
+        ]
     },
     {
         "hash": "01758227EB6001CC",
@@ -26436,6 +30096,19 @@
                 "description": ""
             }
         ],
-        "out": []
+        "out": [
+            {
+                "pin": "OnFalse",
+                "description": ""
+            },
+            {
+                "pin": "OnTrue",
+                "description": ""
+            },
+            {
+                "pin": "OnValue",
+                "description": ""
+            }
+        ]
     }
 ]
